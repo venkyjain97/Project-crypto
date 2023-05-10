@@ -1,0 +1,111 @@
+body{
+    font-family: Roboto;
+    margin-top: 123px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+.right_div{
+    display: flex;
+    margin-right: 20px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+.right_div div{
+    padding: 8px;
+    border: 1px solid rgb(220, 232, 254);
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 237, 232);
+    height: 40px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.section_1,.section_2,.section_3{
+    display: flex;
+}
+.section_1 div{
+    margin-left: 15px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+i{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.section_2 div, .section_3 div{
+    cursor: pointer;
+}
+img{
+    margin-left: 40px;
+}
+#crypto_name{
+    margin-left: 10px;
+    cursor: pointer;
+    width: 130px;
+}
+.number{
+    margin-left: 15px;
+    color: grey;
+    width: 20px;
+}
+#coin_details{
+    margin-left: -25px;
+    width: 500px;
+    text-align: center;
+}
+#coin_details div{
+    width: 150px;
+    text-align: end;
+}
+#coin_info{
+    margin-left: 30px;
+}
+#coin_info div{
+    margin-right: 55px;
+
+    width: 150px;
+}
+.section_4{
+    border: 1px solid rgb(214, 211, 211);
+    font-size: 12px;
+    padding: 6px;
+    margin-right: 80px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+/*-------------------- coins information-----------------------*/
+#coin_ranking{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+#coin_name,#coin_details,#coin_info{
+    margin-top: 22px;
+    display: flex;
+}
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
+.nav_bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:5;
+    background-color: rgb(218, 229, 234);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+}
+  

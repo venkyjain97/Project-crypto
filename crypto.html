@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1fe849949f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="crypto.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <div class="nav_bar">
+<div class="heading">
+        <div style="margin-left: 15px;">
+            <div><b style="font-size: 19px;">Top 100 currencies</b></div>
+            <div style="color: gray; font-size: 13px;">by market capitalization</div>
+        </div>
+        <div class="right_div">
+            <div>All currencies</div>
+            <div>Coins</div>
+            <div>Tokens</div>
+            <div><i class="fa-regular fa-star"></i>Favourites</div>
+        </div>
+    </div>
+<!-------------------------------------------------------------->
+<div class="header">
+    <div class="section_1">
+        <div><i class="fa-solid fa-sort"></i>#</div>
+        <div style="margin-left: 30px;">Coin<i style="margin-left: 10px;" class="fa-solid fa-sort"></i></div>
+    </div>
+    <div class="section_2">
+        <div style="margin-left: -30px;"><i class="fa-solid fa-sort"></i>Market Cap</div>
+        <div style="margin-left: 90px;"><i class="fa-solid fa-sort"></i>Price</div>
+        <div style="margin-left: 60px;"><i class="fa-solid fa-sort"></i>Volume 24h</div>
+    </div>
+    <div class="section_3">
+        <div style="margin-left: -5px;"><i class="fa-solid fa-sort"></i>Cirtulacting</div>
+        <div style="margin-left: 70px;"><i class="fa-solid fa-sort"></i>Change (24h)</div>
+    </div>
+    <div class="section_4">Last 7 days <i class="fa-solid fa-angle-down"></i></div>
+</div>  </div>
+<!---------------End of head of coins------------------------------>
+<div id="display_data"> </div>
+<!-- <div id="coin_ranking">
+    <div id="coin_name">
+        <i style="margin-left: 10px; color: gray;" class="fa-regular fa-star"></i>
+        <div class="number" >1</div>
+        <div>
+            <img style="width: 20px; cursor: pointer;" src="https://cdn.coinranking.com/bOabBYkcX/bitcoin_btc.svg">
+        </div>
+        <div id="crypto_name"> Bitcoin</div>
+    </div>
+   <div id="coin_details">
+        <div style="color: grey;">$144,397,583,825</div>
+        <div>$6,662.25</div>
+        <div>$4,213,110,000</div>
+   </div>
+   <div id="coin_info">
+        <div style="color: grey;">17,104,062 BTC</div>
+        <div ><i class="fa-solid fa-arrow-up"></i>3.24%</div>
+   </div>
+   <div id="graph" style="width: 50px; height: 400px;">
+    <canvas id="myChart"></canvas>
+   </div>
+</div> -->
+<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="crypto.js"></script>
+</body>
+</html>

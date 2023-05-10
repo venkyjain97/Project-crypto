@@ -1,0 +1,73 @@
+body{
+    font-family: Roboto;
+    background-color: rgb(18, 17, 17);
+}
+select{
+    padding: 4px;
+    background-color:  rgb(56, 57, 57);
+    color: white;
+}
+#nav_bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 57, 57);
+    height: 40px;
+    align-items: center;
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    color: white;
+}
+img{
+    margin-top: 60px;
+    width: 200px;
+    text-align: center;
+
+}
+.coin_name{
+    color: rgb(255, 252, 252);
+    margin-top: 10px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#main_container{
+    margin: 55px;
+    display: flex;
+}
+#first_section{
+    color: rgb(255, 254, 254);
+}
+#coin_details{
+    margin-top: 60px;
+}
+#coin_details div{
+    margin-bottom: 13px;
+    /* font-weight: bold; */
+}
+#graph{
+    margin-top: 55px;
+    margin-left: 50px;
+    background-color: rgb(29, 28, 28);
+}
+.third_section{
+    display: flex;
+    margin-left: 60px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+.third_section div{
+    /* text-align: center; */
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 240px;
+    border: 1px solid;
+    border-radius:3px ;
+    cursor: pointer;
+    border-color: rgb(155, 149, 149);
+}
+/* .third_section div:hover{
+    background-color: yellow;
+} */

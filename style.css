@@ -1,0 +1,67 @@
+body{
+    font-family: Roboto;
+    background: url(https://w0.peakpx.com/wallpaper/530/287/HD-wallpaper-bitcoin-gold-coin-finance-background-cryptocurrency-bitcoin-sign-bitcoin-coin-electronic-money-bitcoin.jpg) no-repeat;
+    background-size:cover;
+}
+#nav_bar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    /* background-color: rgb(239, 249, 246); */
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    height: 45px;
+    /* box-shadow: 0px 10px rgba(0,0,0,0.15); */
+}
+#right_element{
+    margin-top: 45px;
+    display: flex;
+}
+#right_element div{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.info{
+    width: 700px;
+    margin: 250px 80px;
+    
+}
+.info h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+.info div{
+    width: 600px;
+    color: rgb(185, 185, 185);
+}
+#ll{
+    padding: 15px;
+    background-color: rgb(51, 104, 125);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+    top: 460px;
+    left: 80px;
+}
+#ll:hover{
+    background-color: white;
+    color: rgb(34, 84, 103);
+}
+#d_1,#d_2{
+    visibility: hidden;
+    margin-top: 5px;
+    border: 1px solid;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    background-color: rgb(73, 160, 160);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
